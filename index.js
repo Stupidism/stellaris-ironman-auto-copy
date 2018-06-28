@@ -1,10 +1,11 @@
+#!/usr/bin/env node
+
 const chokidar = require('chokidar');
 const fs = require('fs');
-const path = require('path');
 const moment = require('moment');
 const _ = require('lodash');
 
-const filename = path.resolve(__dirname, 'ironman.sav');
+const filename = './ironman.sav';
 
 const ironmanWatcher = chokidar.watch(filename);
 
