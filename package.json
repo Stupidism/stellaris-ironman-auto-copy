@@ -1,6 +1,6 @@
 {
   "name": "stellaris-ironman-auto-copy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "automatically copy ironman save files upon new save",
   "dependencies": {
     "chokidar": "^2.0.4",
